@@ -90,7 +90,7 @@ var Game = function(canvasId){
 
 var game = new Game("game");
 
-var grid = new Grid(0, 0, Math.floor(600/20), Math.floor(800/20), 20, 20);
+var grid = new Grid(0, 0, Math.floor(600/10), Math.floor(800/10), 10, 10);
 
 
 window.addEventListener('keydown', function(evt){
